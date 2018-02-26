@@ -1,4 +1,4 @@
-# SECOND RESEARCH ASSIGNMENT #
+# THIRD RESEARCH ASSIGNMENT #
 
 Database is in db folder.
 
@@ -28,4 +28,3 @@ Database is in db folder.
 
 -http://php.net/manual/en/function.password-verify.php
 
-# 3014_r3

@@ -1,0 +1,236 @@
+/*COLOURS*/
+/*light grey #d1cfd2
+medium grey #aaa9ad
+Black green #0f2225
+dark green #1e3332
+medium green #4a6861
+light green #a6bfb9*/
+
+
+/*COLOURS*/
+/*dark grey: #675b5b
+light grey: #8f908b
+light pink: #f0c9d0
+dark pink: #d892a1
+vibrant pink: #d05b67
+
+hot pink: #ec034f*/
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Petit+Formal+Script');
+@import url('https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day');
+@import url("https://use.typekit.net/dzd4epv.css");
+
+
+body {
+	padding: 3em;
+	background-color: #f0c9d0;
+	font-family: 'Montserrat', sans-serif;
+	color: #555;
+	margin:0;
+	padding:0;
+	
+}
+.hidden{
+	display:none;
+}
+.triangle {
+	position:absolute;
+	z-index:-1;
+	height: 1px;
+	border-style: solid;
+	border-width: 0 0 50em 50em;
+	border-color:  transparent transparent  transparent #fff;
+	font-family: "hobo-std",sans-serif;
+	top:0;
+}
+.triangle2 {
+	position:absolute;
+	z-index:-2;
+	height: 1px;
+	border-style: solid;
+	border-width: 0 0 65em 65em;
+	border-color:  transparent transparent  transparent #f0c9d0;
+	font-family: "hobo-std",sans-serif;
+	top:0;
+}
+.lipstick {
+	top:0;
+	position:absolute;
+	z-index:-3;
+	background-image: url(../images/lipstick-open-sm.jpg);
+	width:1200px;
+	/*margin-left:-300px;*/
+	height:480px;
+	/*margin-top:-2em;*/
+}
+.content {
+	width:1000px;
+}
+.to-right {
+	float:right;
+	margin:3em 5em;
+}
+#loginForm {
+	margin:0 auto;
+	padding: 2em; 
+	clear:both;
+	overflow:hidden;
+}
+#loginForm input {
+	border-radius: 0.3em; 
+	margin:1em;
+	padding: 0.8em;
+}
+#checkbox {
+	margin:0;
+	padding:0;
+	display:inline-block;
+}
+
+#loginForm label {
+	
+
+}
+#loginForm h2 {
+	font-family: "hobo-std",sans-serif;
+	font-size: 2.3em;
+	margin-bottom:1em;
+}
+#loginForm h3 {
+	font-size:1.2em;
+	margin-bottom:0.7em;
+	font-family: 'Montserrat', sans-serif;
+
+}
+#button {
+	background-color: #fff;
+	color: #555;
+	border-radius: 0.5em;
+	padding: 0.8em;
+	display: block;
+	float:right;
+
+}
+
+.logo {
+	width: 25em;
+	margin:3em;
+
+}
+.logo h1 {
+	color: #000;
+	font-family: "hobo-std",sans-serif;
+	font-size: 1.1em;
+	margin-top:1em;
+	text-align:center;
+}
+.fineprint {
+	font-size:0.5em;
+	display:inline-block;
+}
+
+
+/*ADMIN INDEX PAGE*/
+.side-bar {
+	width:21em;
+	/*background-color: #4a6861;*/
+	padding: 3em;
+}
+.side-bar h1 {
+	font-family: "hobo-std",sans-serif;
+	font-size: 1.8em;
+	margin-bottom:1em;
+	/*text-align:center; */
+}
+.side-bar h2 {
+	font-family: "hobo-std",sans-serif;
+	font-size: 1.3em;
+	margin-bottom:1em;
+	/*text-align:center; */
+}
+.side-bar h3 {
+	/*font-family: "hobo-std",sans-serif;*/
+	font-size: 1em;
+	margin-bottom:0.7em;
+	/*text-align:center; */
+}
+.spaced {
+	width: 20em;
+	height:7em;
+	/*display:inline-block;*/
+	background-color: red;
+
+}
+.dashboard {
+	display:block;
+	padding-left:20em;
+	/*background-color: #555;*/
+	/*font-family: "hobo-std",sans-serif;*/
+
+}
+
+.dashboard2 {
+	display:inline-block;
+	/*background-color: red;*/
+}
+.dashboard2 h1 {
+	font-size: 3em;
+	padding-bottom: 1em;
+}
+.dashboard2 a {
+	display:block;
+	padding: 1em;
+	padding-left:2em;
+	text-decoration: none;
+	color:#555;
+	transition: all 0.5s ease;
+}
+.dashboard2 a:hover {
+	font-weight:900;
+	margin-left:0.5em;
+}
+
+
+/*ADMIN CREATE USER PAGE*/
+.addUser {
+	padding-left:20em;
+}
+.addUser h1 {
+	font-size:3em;
+	padding-bottom:1em;
+}
+.addUser input {
+	border-radius: 0.3em; 
+	margin:1em;
+	padding: 0.8em;
+
+}
+.dash-link {
+	font-weight: 900;
+	color: #d892a1;
+}
+.dash-link a {
+	text-decoration: none;
+	color: #d892a1;
+	font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
