@@ -27,6 +27,8 @@ if(isset($_POST['submit'])) {
 	if(empty($userlvl)) {
 		$message = "please select a user level";
 	} else {
+		var_dump($fname, $username, $password, $email, $userlvl);
+		die;
 		$result = createUser($fname, $username, $password, $email, $userlvl);
 		$message = $result;
 		

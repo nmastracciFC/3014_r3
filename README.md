@@ -4,27 +4,21 @@ Database is in db folder.
 
 ### Researched Links ###
 
-##### creating user and emailing #####
+##### creating user signed in boolean verification #####
 
--last semester example
+-https://dev.mysql.com/doc/refman/5.7/en/boolean-literals.html
 
--my brain parts
+-http://php.net/manual/en/language.types.boolean.php
 
-##### creating password generator #####
+##### Get current time and compare with date un unixtimecode #####
 
--http://php.net/manual/en/function.array-rand.php
+-http://php.net/manual/en/function.time.php
 
--https://www.w3schools.com/php/php_mysql_update.asp
+-https://www.w3schools.com/php/php_operators.asp
 
-##### storing new password #####
+-http://php.net/manual/en/datetime.gettimestamp.php
 
--https://dzone.com/articles/how-compare-strings-php
+-http://php.net/manual/en/function.time.php
 
-##### encrypted password stored in database #####
-
--http://php.net/manual/en/faq.passwords.php
-
--http://php.net/manual/en/function.password-hash.php
-
--http://php.net/manual/en/function.password-verify.php
+-https://docs.microsoft.com/en-us/sql/t-sql/functions/current-timestamp-transact-sql
 

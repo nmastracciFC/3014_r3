@@ -7,8 +7,8 @@ error_reporting(E_ALL);
 		
 		$hashPassword = password_hash($password, PASSWORD_DEFAULT);
 		
-		$userString = "INSERT INTO tbl_user VALUES(NULL, '{$fname}', '{$username}','{$hashPassword}', '{$email}', NULL, 0, NULL, '{$userlvl}', NULL)"; 
-
+		$userString = "INSERT INTO tbl_user VALUES(NULL, CURRENT_TIME, '{$fname}', '{$username}','{$hashPassword}', '{$email}', NULL, 0, NULL, '{$userlvl}', NULL, 0)"; 
+		
 		$userQuery = mysqli_query($link, $userString);
 		if($userQuery) {
 			$sendMail = sendMessage($email, $fname, $username, $password);
@@ -29,9 +29,9 @@ function sendMessage($email, $fname, $username, $password) {
 	$subj = "ZOU: Your Login info";  
 	$msg = "Oh Hey, ".$fname."!\n\nYour ZOU consultant has created an account to get you started on your lipstick journey with us. Please make sure to login and change your password.\n\nHere are your credentials:\n\nUsername: ".$username."\n\nPassword: ".$password."\n\n Thank you for your business! \n\nThe ZOU team" ;
 	//JUSTIN, COMMENT OUT LINES 32 AND 33 AND UNCOMMENT LINE 34 IF YOU ARE ON LOCALHOST TO VIEW WHAT YOUR NEW USERS RANDOM PASSWORD WILL BE
-			mail($to, $subj, $msg); 
-			redirect_to("admin_index.php");
-			// echo $msg;
+			// mail($to, $subj, $msg); 
+			// redirect_to("admin_index.php");
+			echo $msg;
 }
 
 
