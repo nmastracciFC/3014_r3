@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 
 require_once('phpscripts/config.php');
 
-confirm_logged_in();
+// confirm_logged_in();
 
 
 	$one = ['gently','slowly','closely','quickly','swiftly','sweetly','merrily','happily','joyfully','angrily'];
@@ -27,8 +27,8 @@ if(isset($_POST['submit'])) {
 	if(empty($userlvl)) {
 		$message = "please select a user level";
 	} else {
-		var_dump($fname, $username, $password, $email, $userlvl);
-		die;
+		// var_dump($fname, $username, $password, $email, $userlvl);
+		// die;
 		$result = createUser($fname, $username, $password, $email, $userlvl);
 		$message = $result;
 		

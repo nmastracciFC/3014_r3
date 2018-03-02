@@ -6,19 +6,21 @@ Database is in db folder.
 
 ##### creating user signed in boolean verification #####
 
--https://dev.mysql.com/doc/refman/5.7/en/boolean-literals.html
+- booleans = besteans
 
--http://php.net/manual/en/language.types.boolean.php
+- https://dev.mysql.com/doc/refman/5.7/en/boolean-literals.html
+
+- http://php.net/manual/en/language.types.boolean.php
 
 ##### Get current time and compare with date un unixtimecode #####
 
--http://php.net/manual/en/function.time.php
+- http://php.net/manual/en/function.time.php
 
--https://www.w3schools.com/php/php_operators.asp
+- https://www.w3schools.com/php/php_operators.asp
 
--http://php.net/manual/en/datetime.gettimestamp.php
+- http://php.net/manual/en/datetime.gettimestamp.php
 
--http://php.net/manual/en/function.time.php
+- http://php.net/manual/en/function.time.php
 
--https://docs.microsoft.com/en-us/sql/t-sql/functions/current-timestamp-transact-sql
+- https://docs.microsoft.com/en-us/sql/t-sql/functions/current-timestamp-transact-sql
 

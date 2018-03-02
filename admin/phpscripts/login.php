@@ -19,7 +19,7 @@
  		$dateCreateUnix = strtotime($dateCreate);
  		$currentTime = strtotime('now');
 		// var_dump($currentTime, $dateCreateUnix);
- 	// 	die;
+ 		// 	die;
  		
 
 
@@ -29,7 +29,6 @@
 
  		}else if (password_verify($password, $found_user['user_pass']) && ($found_user['user_attempts'] < 3)) {
  		
- 		// if(password_verify($password, $found_user['user_pass']) && ($found_user['user_attempts'] < 3)){
  			$_SESSION['user_id'] = $id; //label user_id equals the variable id
 	 		$_SESSION['user_fname'] = $found_user['user_fname'];
 	 		$_SESSION['user_lastlog'] = $found_user['user_lastlog'];
@@ -68,11 +67,6 @@
  		return "You are now Locked out--Sorry Dude.";
  	}
 
-	}
- 	// } else {
- 		
- 	// 	$message = "Username or password is incorrect";
- 	// 	return $message;
  	}
 
 
