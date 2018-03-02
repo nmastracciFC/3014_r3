@@ -24,6 +24,7 @@
 
 
  		if( $currentTime - $dateCreateUnix > 3600 && $signedIn == false){
+ 			//JUSTIN above is the amount in seconds that a user has to sign in before their account is inaccessible. Feel free to change it to less than an hour.
 
  			return "Uh oh... You have exceeded the amount of time allowed to log in to your account. You must contact your site Administrator to get your account reactivated.";
 
